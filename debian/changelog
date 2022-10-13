@@ -1,0 +1,51 @@
+node-color-convert (2.0.1-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Use secure copyright file specification URI.
+
+  [ Yadd ]
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Add upstream/metadata
+  * Bump debhelper compatibility level to 13
+  * Modernize debian/watch
+  * Fix GitHub tags regex
+  * Use dh-sequence-nodejs
+  * Update standards version to 4.6.0, no changes needed.
+  * Fix filenamemangle
+  * New upstream version 2.0.1
+  * Drop nodejs dependency
+
+ -- Yadd <yadd@debian.org>  Fri, 15 Oct 2021 18:18:34 +0200
+
+node-color-convert (1.9.3-1) unstable; urgency=medium
+
+  * New upstream version 1.9.3
+  * Bump debhelper-compat to 12
+  * Bump Standards-Version to 4.4.0 (no changes needed)
+  * Switch to pkg-js-tools auto install and test
+
+ -- Pirate Praveen <praveen@debian.org>  Tue, 27 Aug 2019 17:23:17 +0000
+
+node-color-convert (1.9.0-3) unstable; urgency=medium
+
+  * Set minimum version of nodejs for using node command
+  * Bump debhelper compatibility level to 11
+  * Bump Standards-Version to 4.2.1 (no changes needed)
+  * Use salsa.debian.org in Vcs-* fields
+
+ -- Pirate Praveen <praveen@debian.org>  Wed, 12 Sep 2018 18:27:25 +0530
+
+node-color-convert (1.9.0-2) unstable; urgency=medium
+
+  * Add node-chalk as autopkgtest dependency (fix autopkgtest failure)
+
+ -- Pirate Praveen <praveen@debian.org>  Tue, 31 Oct 2017 19:46:42 +0530
+
+node-color-convert (1.9.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #874650)
+
+ -- Pirate Praveen <praveen@debian.org>  Fri, 08 Sep 2017 18:38:24 +0530

@@ -1,0 +1,5 @@
+version=4
+opts=\
+dversionmangle=auto,\
+filenamemangle=s/.*?(\d[\d\.-]*@ARCHIVE_EXT@)/node-color-convert-$1/ \
+ https://github.com/qix-/color-convert/tags .*/archive/.*/v?([\d\.]+).tar.gz
