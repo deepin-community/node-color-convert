@@ -9,7 +9,7 @@ Build-Depends: debhelper-compat (= 13)
  , node-chalk <!nocheck>
  , node-color-name <!nocheck>
  , nodejs
-Standards-Version: 4.6.0
+Standards-Version: 4.5.0
 Vcs-Browser: https://salsa.debian.org/js-team/node-color-convert
 Vcs-Git: https://salsa.debian.org/js-team/node-color-convert.git
 Homepage: https://github.com/qix-/color-convert#readme
@@ -19,6 +19,7 @@ Package: node-color-convert
 Architecture: all
 Depends: ${misc:Depends}
  , node-color-name
+Multi-Arch: foreign
 Description: Plain color conversion functions
  Color-convert is a color conversion library for JavaScript and node.  It
  converts all ways between rgb, hsl, hsv, hwb, cmyk, ansi, ansi16, hex strings,

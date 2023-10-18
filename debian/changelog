@@ -1,3 +1,19 @@
+node-color-convert (2.0.1+~cs2.0.0-2) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints. + node-color-convert: Add Multi-Arch: foreign.
+
+  [ Roland Mas ]
+  * Declare compliance with policy 4.5.0
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Thu, 01 Dec 2022 00:52:57 +0000
+
+node-color-convert (2.0.1+~cs2.0.0-1) unstable; urgency=medium
+
+  * Import types component.
+
+ -- Roland Mas <lolando@debian.org>  Tue, 26 Apr 2022 15:13:08 +0200
+
 node-color-convert (2.0.1-1) unstable; urgency=medium
 
   * Team upload
